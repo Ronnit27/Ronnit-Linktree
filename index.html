@@ -37,17 +37,18 @@
 
         /* Profile Photo */
         .profile-img {
-            width: 110px;
-            height: 110px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid white;
             padding: 3px;
             margin-bottom: 15px;
+            box-shadow: 0 0 25px rgba(255,255,255,0.25);
         }
 
         h1 {
-            font-size: 26px;
+            font-size: 27px;
             margin-bottom: 6px;
         }
 
@@ -86,12 +87,12 @@
             background: rgba(255,255,255,0.12);
             backdrop-filter: blur(15px);
 
-            transition: 0.3s ease;
+            transition: all 0.3s ease;
         }
 
         .link:hover {
             transform: translateY(-4px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
         }
 
         .icon {
@@ -133,6 +134,11 @@
                 padding: 18px;
             }
 
+            .profile-img {
+                width: 105px;
+                height: 105px;
+            }
+
             h1 {
                 font-size: 23px;
             }
@@ -148,26 +154,30 @@
 
     <div class="container">
 
-        <!-- Profile Picture -->
+        <!-- =========================
+             PROFILE PHOTO
+             ========================= -->
         <img
-            src="WhatsApp Image 2026-09-19 at 5.51.59 PM.jpg"
+            src="profile.jpg"
             alt="Ronnit Suman"
             class="profile-img"
         >
 
-        <!-- Name -->
+        <!-- NAME -->
         <h1>Ronnit Suman</h1>
 
-        <!-- Instagram Username -->
-        <div class="username">@ronnit_suman_27</div>
+        <!-- INSTAGRAM USERNAME -->
+        <div class="username">
+            @ronnit_suman_27
+        </div>
 
-        <!-- Bio -->
+        <!-- BIO -->
         <p class="bio">
             ✨ Welcome to my world<br>
             📲 Connect with me
         </p>
 
-        <!-- Instagram -->
+        <!-- INSTAGRAM -->
         <a
             href="https://instagram.com/ronnit_suman_27"
             target="_blank"
@@ -177,7 +187,7 @@
             Instagram
         </a>
 
-        <!-- WhatsApp -->
+        <!-- WHATSAPP -->
         <a
             href="https://wa.me/917808051287"
             target="_blank"
@@ -187,7 +197,7 @@
             WhatsApp
         </a>
 
-        <!-- Snapchat -->
+        <!-- SNAPCHAT -->
         <a
             href="https://www.snapchat.com/add/ronnit_27"
             target="_blank"
@@ -197,7 +207,7 @@
             Snapchat
         </a>
 
-        <!-- Footer -->
+        <!-- FOOTER -->
         <div class="footer">
             Made with ❤️ by Ronnit
         </div>
